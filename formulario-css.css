@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@300;600&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.corpo{
+    font-family:'Krona One', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    color: black
+    
+}
+.botao:hover{
+    background-color: black;
+    color:white;
+    border-radius: 2px;
+
+}
+.texto__area{
+    display: flex;
+    flex-direction: column;
+
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.email{
+    display: flex; 
+   flex-direction: column;
+   margin: 20px;
+   padding: 5px;
+
+}
+.nome{
+   display: flex; 
+   flex-direction: column;
+   margin: 20px;
+
+   
+}
+.sobrenome{
+   
+    display: flex; 
+    flex-direction: column;
+    margin: 20px;
+}
+.opcao{
+    margin: 20px;
+}
+.primeira__entrada{
+    display: flex; 
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.segunda__entrada{
+    display: flex; 
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 5px
+}
+.terceira__entrada{
+    display: flex; 
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
