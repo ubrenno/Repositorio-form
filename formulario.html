@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body class="corpo">
+    
+    <form action="">
+   
+<fieldset>
+    <div>
+    <legend class="formulario"><h1>Formulário</h1></legend>
+    <label class="nome"> Digite seu nome:</label>
+    <input class="primeira__entrada" type="text" nome=nome id=nome required>
+</div>
+<div >
+     <label class="sobrenome">Digite seu sobrenome: </label>
+<input class="segunda__entrada" type="text" nome=sobrenome id=sobrenome required> 
+</div>
+<div >
+<label class="email">Digite seu email:</label>
+<input class="terceira__entrada" nome=email id=email required>
+</div>
+</fieldset>
+<div>
+     <label> Senioridade</label>
+     <select id="Senioridade">
+     <option class="primeira__opcao">Junior</option>
+    <option class="segunda__opcao">Pleno</option>
+    <option class="terceira__opcao">Senior</option>
+    </select>
+    </fieldset>
+
+</div>
+    <fieldset>
+        <div class="opcao">
+    <label class="selecione__tecnologia">Selecione as tecnologias que Utiliza:</label><br>
+    
+    <input type="checkbox" name="devweb" value="frontand">Front-and<br>
+    <input type="checkbox" name="devweb" value="backand">Back-and<br>
+    <input type="checkbox" name="devweb" value="fullstack"> Full-stack<br>
+        </div>
+    </fieldset>
+<div>
+
+    <label> Conte um pouco mais sobre suas experiências:</label>
+    <textarea class="texto__area" rows="10" style="width: 26em;" id="experiências" name="experiências"></textarea>
+</div>
+
+<p>
+<input class="botao" type ="submit" value="enviar">
+
+</p>
+
+
+</form>
+  
+   
+</body>
+</html>
